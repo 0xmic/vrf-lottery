@@ -1,7 +1,7 @@
 # Provably Random Raffle Contracts
 
 ## About
-This project demonstrates a provably random smart contract lottery.
+This project demonstrates a provably random smart contract lottery utilizing Chainlink VRF and Automation.
 
 ## What we want it to do?
 
