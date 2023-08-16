@@ -1,7 +1,7 @@
 # Provably Random Raffle Contracts
 
 ## About
-This project demonstrates a provably random smart contract lottery utilizing Chainlink VRF and Automation.
+This project demonstrates a provably random smart contract lottery utilizing Chainlink VRF and Automation. The Foundry framework is used for contract development.
 
 ## What we want it to do?
 
