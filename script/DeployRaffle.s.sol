@@ -18,15 +18,20 @@ contract DeployRaffle is Script {
             uint32 callbackGasLimit
         ) = helperConfig.activeNetworkConfig();
 
+        if (subscriptionId == 0) {
+            // need to create a subscription
+
+        }
+
         vm.startBroadcast();
         Raffle raffle = new Raffle(
-      entranceFee,
-      interval,
-      vrfCoordinator,
-      gasLane,
-      subscriptionId,
-      callbackGasLimit
-    );
+            entranceFee,
+            interval,
+            vrfCoordinator,
+            gasLane,
+            subscriptionId,
+            callbackGasLimit
+        );
         vm.stopBroadcast();
         return (raffle, helperConfig);
     }
